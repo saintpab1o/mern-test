@@ -1,0 +1,36 @@
+{
+  "name": "mern-test",
+  "version": "1.0.0",
+  "description": "test-app",
+  "main": "app.js",
+  "scripts": {
+    "start": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saintpab1o/mern-test.git"
+  },
+  "keywords": [
+    "none"
+  ],
+  "author": "pm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saintpab1o/mern-test/issues"
+  },
+  "homepage": "https://github.com/saintpab1o/mern-test#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.18",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
